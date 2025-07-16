@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Armação dos Búzios</title>
+      <style>
+            body {
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  margin: 0;
+                  padding: 0;
+                  background-image: linear-gradient(35deg, skyblue, rgb(146, 220, 146), white, rgb(146, 220, 146), skyblue );
+            }
+
+            header {
+                  background-image: linear-gradient(90deg, skyblue, yellow , orange, yellow, skyblue);
+                  color: rgb(18, 18, 18);
+                  padding: 25px 0;
+                  text-align: center;
+            }
+
+            nav {
+                  background-image: linear-gradient(45deg, skyblue, yellow, red, yellow, skyblue);
+                  text-align: center;
+                  padding: 10px 0;
+            }
+
+            nav a {
+                  color: rgb(9, 9, 9);
+                  margin: 0 15px;
+                  text-decoration: underline;
+                  font-weight: bold;
+                  cursor: pointer;
+            }
+
+            .container {
+                  max-width: 900px;
+                  margin: auto;
+                  padding: 20px;
+                  background-image: linear-gradient(90deg , orange , yellow white , yellow, orange  );
+                  
+            }
+
+            section {
+                  display: none;
+                  margin-top: 20px;
+            }
+
+            section.active {
+                  display: block;
+            }
+
+            footer {
+                  background-image: linear-gradient(75deg , skyblue, orange, white, orange , skyblue);
+                  color: rgb(0, 0, 0);
+                  text-align: center;
+                  padding: 15px 0;
+                  margin-top: 40px;
+            }
+      </style>
+</head>
+
+<body>
+
+      <header>
+            <h1><strong>Armação dos Búzios</strong></h1>
+            <h2><strong>Passeios Turísticos</strong></h2>
+            <h3><strong>Um paraíso no litoral do Rio de Janeiro</strong></h3>
+      </header>
+      <nav>
+            <a onclick="showSection('tourbuggy')">Tour Buggy em Búzios</a>
+            <a onclick="showSection('escunabuzios')">Escuna Búzios</a>
+            <a onclick="showSection('tourarraialdocabo')">Tour Arraial do Cabo</a>
+            <a onclick="showSection('tourriodejaneiro')">Tour Rio de Janeiro</a>
+            <a onclick="showSection('transfer')">Transfer Privativo e Regular</a>
+            <a onclick="showSection('massagem')">Massagem</a>
+            <a onclick="showSection('aluguelauto')">Aluguel de Carro ou Buggy</a>
+      </nav>
+
+      <div class="container">
+
+            <section id="tourbuggy">
+                  <h2>Tour Buggy em Búzios</h2>
+                  <p>No passeio de buggy, você visitará os principais pontos turísticos de Búzios, com visita a mirantes e paradas para fotos. </p>
+                  <h4>Sobre o passeio:</h4>
+                 <ul>
+                  <li>Preço: R$ 100,00 por pessoa (mínimo 2 pessoas)</li>
+                  <li>Formas de pagamento: dinheiro ou Pix</li>
+                  <li>Duração: 1h20</li>
+                 </ul>
+
+                 <h4>Roteiro:</h4>
+                 <ul>
+                  <li>Praia da Armação: 
+Veremos a estátua de Brigitte Bardot, a estátua dos Três Pescadores e a estátua do ex pressidente Juscelino Kubitschek, além da casa onde morou.</li>
+                  <li>Praia dos Ossos:
+Igreja de Santa Ana, Lagoa dos Ossos e seguiremos em frente.</li>
+                  <li>João Fernandes/João Fernandinho.</li>
+                  <li>O passeio continua até a Ponta do Criminoso, com uma breve parada para fotos e conhecimento da história da região.</li>
+                  <li>Mirante João Fernandes, com vista de 360 graus de Búzios.</li>
+                  <li>Em seguida, seguimos para a Praia da Brava, onde faremos nossa terceira parada para fotos: o Mirante da Brava, de onde se avista todo o sul da península.</li>
+                  <li>Passaremos pela Praia do Forno, Praia da Foca e Praia da Ferradura e retornaremos à pousada.</li>
+                 </ul>
+                 <p>Se preferir, você pode se hospedar na Praia da Ferradura, uma das melhores praias de Búzios. 
+                  <br> Agendaremos um horário para buscá-lo e deixá-lo na pousada.</p>
+                 
+           
+            </section>
+
+            <section id="escunabuzios">
+                  <h2><strong>Escuna Búzios</strong></h2>
+                  <p>Valor: R$ 100,00 por pessoa.
+                  <br>Formas de pagamento: Cartão, Dinheiro ou Pix.
+</p>
+                  <p>A escuna irá partir do Píer do Centro. 
+                        <br>Passará por 12 praias e 3 ilhas, tendo a duração total de 2:30h.</p>
+                        <h3>Roteiro</h3>
+                        <ul>
+                              <li>Praia dos Ossos</li>
+                              <li>Praia Azeda</li>
+                              <li>Praia Azedinha</li>
+                              <li>Praia de João Fernandes</li>
+                              <li>Praia de João Fernandinho</li>
+                              <li>Ponta do criminoso</li>
+                              <li>Ilha Branca</li>
+                              <li>Ilha Feia</li>
+                              <li>Ponta da Sapata</li>
+                              <li>Praia da Tartaruga</li>
+                              <li>Praia das Virgens</li>
+                              <li>Praia dos Amores</li>
+                              <li>Praia do canto</li>
+                              <li>Ilha do Caboclo</li>
+                              <li>Praia da Armação</li> 
+                  </ul>
+
+                  <p><strong>Faremos 3 paradas de 20 minutos cada, sem desembarque na areia, para banho e fotos, nas seguintes praias:</strong></p>
+
+                  <ul>
+                        <li>João Fernandes</li>
+                        <li>Ilha feia</li>
+                        <li>Tartaruga</li>
+                  </ul>
+                  <p><strong>Incluso </strong></p>
+                  <ul>
+                        <li>Coletes e flutuadores à disposição de todos com total segurança</li>
+                        <li>Atendimento de qualidade, músicas e muita diversão.</li>
+                        <li>Temos a bordo também um bar com vendas de água, bebidas alcoólicas, drinks e outras opções, contamos também com espetinho de churrasco.</li>
+                  </ul>
+                  Informações importantes
+                  <p>Informações importantes</p>
+                  <li>Crianças até 5 anos não pagam.</li>
+                  <li>Proibido entrada de cooler e garrafas de vidro.</li>
+                  <li>O roteiro pode ser alterado de acordo com as condições climáticas.</li>
+            </section>
+
+                  <section id="tourarraialdocabo">
+                        <h2>Tour Arraial do Cabo</h2>
+                        <p>Um passeio maravilhoso e divertido pelas águas cristalinas de Arraial do Cabo. 
+                        <br>Descubra alguns dos lugares que você visitará neste passeio panorâmico!</p>
+                        <ul>
+                              <li><strong>Praia do Farol:</strong> <br>
+                                    Localizada em uma reserva ecológica, a Praia do Farol é protegida pela Marinha do Brasil. 
+                                    <br>É considerada por muitos a praia mais bonita do país, com águas incrivelmente transparentes e areia branca.</li>
+                              <li><strong>Praia do Pontal:</strong> <br>
+                                    Também conhecidas como "Prainhas", essas praias são divididas em duas partes por rochas. 
+                                    <br>Com suas águas cristalinas e costões rochosos, são perfeitas para mergulho e são uma das paradas do passeio.</li>
+                              <li><strong>Gruta Azul:</strong> <br>
+                                    Sua entrada tem 3 metros de largura e, em seu interior, há uma sala de 15 metros de altura com paredes em tons de dourado e prateado. 
+                                    <br>Apesar do nome, os tons de azul só podem ser vistos em certas épocas do ano, ao amanhecer, quando a luz inunda a gruta.</li>
+                              <li><strong>Fenda de Nossa Senhora</strong> <br>
+                                    O nome vem da história de um pescador que, em 1721, encontrou uma imagem de Nossa Senhora Aparecida nesta fenda entre dois penhascos.</li>
+                              <li><strong>Pedra do Gorila:</strong> <br>
+                                    Esta rocha gigantesca lembra o rosto de um gorila, conhecido localmente como o Guardião do Mar.</li>
+                              <li><strong>Cratera do meteoro: </strong> <br>
+                                    A chamada "cratera do meteoro" em Arraial do Cabo é, na verdade, uma formação rochosa natural na Ilha do Farol. 
+                                    <br>É conhecida pela sua aparência peculiar e pela lenda de ter sido formada pela queda de um meteorito. 
+                                    <br>Apesar de não haver comprovação científica da origem extraterrestre, a formação rochosa é um ponto turístico popular, atraindo visitantes com sua beleza e história intrigante.
+                              </li>
+                              <li><strong>Praia do Forno:</strong> 
+                                    <br>Localizada em uma enseada paradisíaca, esta praia só é acessível por barco ou por uma trilha íngreme. 
+                                    <br>Além da vegetação preservada, águas cristalinas e corais, abriga um restaurante flutuante especializado em ostras e frutos do mar.
+                              </li>
+                        </ul>
+                        <h3>Serviços de bordo</h3>
+                        <ul>
+                              <li>Coletes salva-vidas</li>
+                              <li>Flutuadores tipo "Macarrão"</li>
+                              <li>Água mineral gratuita</li>
+                              <li>Banheiros masculino e feminino</li>
+                              <li>Muita música</li>
+                        </ul>
+                        <h3>Extras</h3>
+                        <ul>
+                              <li>Equipamento de mergulho com snorkel (custo adicional)</li>
+                              <li>Fotógrafos a bordo (custo adicional)</li>
+                              <li>Bar de bordo (custo adicional)</li>
+                        </ul>
+                        <p><strong><u>Taxa de embarque obrigatória na Marina de R$ 10,00 por pessoa - Não inclusa no valor do passeio.</u></strong></p>
+                  </section>
+                  
+            <section id="tourriodejaneiro">
+                  <h2>Tour Rio de Janeiro</h2>
+                  <p>Faça um Tour saindo direto do seu hotel para a Cidade Maravilhosa. 
+                        <br>Conheça os principais pontos turísticos. 
+                        <br>E não se preocupe, o almoço é por nossa conta!!!
+                  </p>
+                  <br>
+                  <ul>
+                        <li><strong>Check in no hotel (30 minutos antes)</strong></li>
+                        <br>
+                        <li><strong>Cristo Redentor : </strong>
+                              <br>Situado no topo do Morro do Corcovado, é uma das Sete Maravilhas do Mundo Moderno. 
+                              <br>Inaugurado em 1931, este monumento de 30 metros de altura, oferece vistas panorâmicas deslumbrantes do Rio de Janeiro a 710 metros acima do nível do mar.</li>
+                              <br>
+                        <li><strong>Escadaria Selaron:</strong> 
+                              <br>A Escadaria Selarón é uma obra arquitetônica localizada entre os bairros de Santa Teresa e Lapa, no Rio de Janeiro. 
+                              <br> Decorada pelo artista chileno radicado no Brasil ,<strong>Jorge Selarón</strong> , que declarou-a como uma "homenagem ao povo brasileiro".</li>
+                              <br>
+                        <li><strong>Sambódromo:</strong> 
+                              <br>O Sambódromo da Marquês de Sapucaí, também conhecido como Sambódromo do Rio de Janeiro e oficialmente denominado como Passarela Professor Darcy Ribeiro, é um sambódromo localizado na Avenida Marquês de Sapucaí, na zona central da cidade do Rio de Janeiro. 
+                              <br>Inaugurado no ano de 1984, o local é o palco do festival popular mais famoso do Brasil, o Desfile das escolas de samba do Rio de Janeiro</li>
+                              <br>
+                              <li><strong>Maracanã:</strong> 
+                              <br>Inaugurado em 16 de junho de 1950, o Estádio Jornalista Mário Filho, o Maracanã, é conhecido mundialmente como o Templo do Futebol. 
+                              <br>Uma segunda casa para todo carioca, ele tem uma história que transcende os limites do Rio de Janeiro e do Brasil. 
+                              <br>Sede de duas finais de Copa do Mundo, Cerimônias de Abertura e Encerramento dos Jogos Olímpicos. 
+                              <br>Abençoado pelo Papa João Paulo II. Palco de shows de Frank Sinatra, Tina Turner, Kiss e até do Rock in Rio. 
+                              <br>São mais de 70 anos de muitas histórias para contar.</li>
+                              <br>
+                        <li><strong>Copcabana:</strong> 
+                              <br>Situado na Zona Sul do município do Rio de Janeiro. 
+                              <br>É considerado um dos bairros mais famosos e prestigiados do Brasil e um dos mais conhecidos do mundo. 
+                              <br>Tem o apelido de Princesinha do Mar e Coração da Zona Sul.</li>
+                              <br>
+                              <li><strong>Ipanema:</strong>  
+                                    <br>Figura entre os principais pontos turísticos da cidade do Rio de Janeiro, tanto para turistas brasileiros quanto internacionais. 
+                                    <br> Todo ano, turistas lotam o tradicional bairro e sua praia. 
+                                    <br>O Parque Garota de Ipanema e a Pedra do Arpoador são pontos turísticos populares. 
+                                    <br>Assim como a vista para o Morro Dois Irmãos, um cartão-postal do Rio de Janeiro. </li>
+                                    <br>
+                                    <h3>Opicional (com custo)</h3>
+                              <li><strong>Pão de Açucar:</strong>
+                                    <br>Monumento Natural dos Morros do Pão de Açúcar e da Urca é um complexo de morros localizado no bairro da Urca, na cidade do Rio de Janeiro. 
+                                    <br>É composto pelo Morro do Pão de Açúcar (que dá nome ao complexo) e pelo Morro da Urca. 
+                                    <br>Junto com a estátua do Cristo Redentor, é o maior cartão-postal da cidade do Rio de Janeiro e um dos mais famosos do Brasil. 
+                                    <br>Pelas características únicas, margeado pelas águas da baía de Guanabara, constitui-se em uma referência turística internacional para a cidade. 
+                                    <br>Possui, como atração complementar, o passeio de teleférico interligando a Praia Vermelha, o Morro da Urca e o Morro do Pão de Açúcar. 
+                                    <br>Conhecido como <strong>Bondinho do Pão de Açúcar</strong>, o teleférico foi idealizado em 1908 e inaugurado em 1912, tornando-se o primeiro teleférico instalado no país e o terceiro do mundo.
+                              </li>
+                              </ul>
+                 
+                      
+
+            </section>
+
+            <section id="transfer">
+                  <h2><strong>Transfer Privativo e Regular</strong></h2>
+                  <ul>
+                        <li><strong>Traslado Privativo - R$ 600,00 (preço para até 2 pessoas).</strong>
+                              <ol>
+                                    <li>
+                                          <br>Este é um serviço privativo, operado por carro.
+                                          <br>Neste caso, o carro é reservado apenas para você, o motorista estará te aguardando e, assim que desembarcar, você será direcionado diretamente para a pousada.
+                                          <br>Este serviço lhe dá muito mais tempo para aproveitar Búzios e você não precisa perder tanto tempo no aeroporto esperando horários de partida ou a chegada de outros voos.
+                                          <br>Com este serviço, o tempo médio de viagem do desembarque até a chegada à pousada é 03:30 hrs (caso não utilize um ônibus de transporte público).
+                                    </li>
+                        </li>
+                        <br>
+                        <li><strong>Traslado Regular - R$ 190,00 por pessoa.</strong>
+                        </li>
+                        <br>Este serviço tem horários de partida pré-determinados pela empresa, é compartilhado com pessoas de outras pousadas e é operado por õnibus. 
+                        <br>O tempo médio é entre 7 e 8 horas do desembarque até a chegada à pousada.
+
+                  </ul>
+                  
+
+
+            </section>
+
+            <section id="massagem">
+                  <h2><strong>Massagem</strong></h2>
+                  <h4><Strong>Técnicas Valor: R$ 290,00 com 60 minutos</Strong></h4>
+                  <ul>
+                        <li>Sueca</li>
+                        <li>Shiatsu</li>
+                        <li>Drenagem Linfática</li>
+                        <li>Estética</li>
+                        <li>Deep Tissue</li>
+                        <br>
+                        <h4><strong>Técnicas Valor: R$ 390,00 com 60 minutos</strong></h4>
+                        <li>Lomi Lomi - Massagem Havaiana</li>
+                        <li>Esalen - Massagem Californiana</li>
+                        <li>7 Chakras</li>
+                        <li>Hot Stones - Massagem com pedras quentes</li>
+                        <li>Criodrain - Drenagem com gelo</li>
+                        <li>Floating - Massagem flutuante</li>
+                        <br>
+                        <h3>Exclusiva</h3>
+                        <li><strong>Frazão 120 minutos - R$ 490,00</strong></li>
+
+                  </ul>
+            </section>
+
+            <section id="aluguelauto">
+                  <h2>Aluguel de Carro ou Buggy</h2>
+                  <p>Valores a partir de R$ 350,00. 
+                  <br>Consulte a disponibilidade com nossa recepção.
+            </p>
+            </section>
+      </div>
+
+      <footer>
+            <p>&copy; 2025 Descubra Búzios - Fale conosco</p>
+      </footer>
+
+      <script>
+            function showSection(id) {
+                  const sections = document.querySelectorAll('section');
+                  sections.forEach(section => {
+                        section.classList.remove('active');
+                  });
+
+                  const target = document.getElementById(id);
+                  if (target) {
+                        target.classList.add('active');
+                  }
+            }
+      </script>
+
+</body>
+
+</html>
